@@ -1,0 +1,264 @@
+{
+ "nodes": [
+  {
+   "id": "n1",
+   "type": "text",
+   "x": 26,
+   "y": 26,
+   "width": 92,
+   "height": 95,
+   "text": "Агент\n\nноситель интереса",
+   "color": null
+  },
+  {
+   "id": "n2",
+   "type": "text",
+   "x": 214,
+   "y": 26,
+   "width": 256,
+   "height": 96,
+   "text": "Рационален?\n\nпроверка модели",
+   "color": null
+  },
+  {
+   "id": "n3",
+   "type": "text",
+   "x": 566,
+   "y": 26,
+   "width": 96,
+   "height": 69,
+   "text": "Выбор\n\nкалькуляция альтернатив",
+   "color": null
+  },
+  {
+   "id": "n4",
+   "type": "text",
+   "x": 759,
+   "y": 26,
+   "width": 106,
+   "height": 71,
+   "text": "Действие\n\nнаблюдаемое следствие",
+   "color": null
+  },
+  {
+   "id": "n5",
+   "type": "text",
+   "x": 26,
+   "y": 26,
+   "width": 92,
+   "height": 65,
+   "text": "Правило\n\nинституциональная норма",
+   "color": null
+  },
+  {
+   "id": "n6",
+   "type": "text",
+   "x": 214,
+   "y": 26,
+   "width": 92,
+   "height": 95,
+   "text": "Агент\n\nисполнитель роли",
+   "color": null
+  },
+  {
+   "id": "n7",
+   "type": "text",
+   "x": 402,
+   "y": 26,
+   "width": 205,
+   "height": 69,
+   "text": "Воспроизводство\n\nповторяющаяся практика",
+   "color": null
+  },
+  {
+   "id": "n8",
+   "type": "text",
+   "x": 703,
+   "y": 26,
+   "width": 194,
+   "height": 71,
+   "text": "Социальный порядок\n\nустойчивая среда",
+   "color": "6"
+  },
+  {
+   "id": "n9",
+   "type": "text",
+   "x": 26,
+   "y": 26,
+   "width": 136,
+   "height": 52,
+   "text": "Индивидуализм",
+   "color": null
+  },
+  {
+   "id": "n10",
+   "type": "text",
+   "x": 26,
+   "y": 96,
+   "width": 136,
+   "height": 52,
+   "text": "Структурализм",
+   "color": null
+  },
+  {
+   "id": "n11",
+   "type": "text",
+   "x": 44,
+   "y": 166,
+   "width": 98,
+   "height": 52,
+   "text": "Практики",
+   "color": null
+  },
+  {
+   "id": "n12",
+   "type": "text",
+   "x": 33,
+   "y": 236,
+   "width": 120,
+   "height": 52,
+   "text": "Актант-сеть",
+   "color": null
+  },
+  {
+   "id": "n13",
+   "type": "text",
+   "x": 26,
+   "y": 306,
+   "width": 136,
+   "height": 52,
+   "text": "Процессуализм",
+   "color": null
+  },
+  {
+   "id": "n14",
+   "type": "text",
+   "x": 258,
+   "y": 26,
+   "width": 399,
+   "height": 96,
+   "text": "Несводимость позиций?\n\nусловие интеграции",
+   "color": null
+  },
+  {
+   "id": "n15",
+   "type": "text",
+   "x": 360,
+   "y": 140,
+   "width": 194,
+   "height": 52,
+   "text": "Интегрирующая рамка: поле взаимодействий",
+   "color": "6"
+  }
+ ],
+ "edges": [
+  {
+   "id": "e1",
+   "fromNode": "n1",
+   "toNode": "n2",
+   "fromSide": "right",
+   "toSide": "left",
+   "label": "сталкивается с выбором",
+   "color": "6"
+  },
+  {
+   "id": "e2",
+   "fromNode": "n2",
+   "toNode": "n3",
+   "fromSide": "right",
+   "toSide": "left",
+   "label": "да",
+   "color": "6"
+  },
+  {
+   "id": "e3",
+   "fromNode": "n3",
+   "toNode": "n4",
+   "fromSide": "right",
+   "toSide": "left",
+   "label": "порождает",
+   "color": "6"
+  },
+  {
+   "id": "e4",
+   "fromNode": "n5",
+   "toNode": "n6",
+   "fromSide": "right",
+   "toSide": "left",
+   "label": "предписывает",
+   "color": "6"
+  },
+  {
+   "id": "e5",
+   "fromNode": "n6",
+   "toNode": "n7",
+   "fromSide": "right",
+   "toSide": "left",
+   "label": "участвует в",
+   "color": "6"
+  },
+  {
+   "id": "e6",
+   "fromNode": "n7",
+   "toNode": "n8",
+   "fromSide": "right",
+   "toSide": "left",
+   "label": "поддерживает",
+   "color": "6"
+  },
+  {
+   "id": "e7",
+   "fromNode": "n9",
+   "toNode": "n15",
+   "fromSide": "right",
+   "toSide": "left",
+   "label": "агент",
+   "color": "6"
+  },
+  {
+   "id": "e8",
+   "fromNode": "n10",
+   "toNode": "n15",
+   "fromSide": "right",
+   "toSide": "left",
+   "label": "норма",
+   "color": "6"
+  },
+  {
+   "id": "e9",
+   "fromNode": "n11",
+   "toNode": "n15",
+   "fromSide": "right",
+   "toSide": "left",
+   "label": "практика",
+   "color": "6"
+  },
+  {
+   "id": "e10",
+   "fromNode": "n12",
+   "toNode": "n15",
+   "fromSide": "right",
+   "toSide": "left",
+   "label": "ассоциация",
+   "color": "6"
+  },
+  {
+   "id": "e11",
+   "fromNode": "n13",
+   "toNode": "n15",
+   "fromSide": "right",
+   "toSide": "left",
+   "label": "событие",
+   "color": "6"
+  },
+  {
+   "id": "e12",
+   "fromNode": "n14",
+   "toNode": "n15",
+   "fromSide": "right",
+   "toSide": "left",
+   "label": "если да — рамка остаётся мета-языком",
+   "color": "6"
+  }
+ ]
+}
